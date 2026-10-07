@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Game Development Internship Portfolio showcasing gameplay programming, systems scripting, and engine experience."
+    />
+    <title>Alex Carter | Game Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="background-glow glow-1"></div>
+    <div class="background-glow glow-2"></div>
+
+    <header class="site-header">
+      <nav class="nav container">
+        <div class="brand">AC</div>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#experience">Experience</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <a class="button button-secondary" href="#contact">Hire Me</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero container">
+        <div class="hero-copy">
+          <p class="eyebrow">Gameplay Programmer • Systems Designer • C++ Developer</p>
+          <h1>Building playable systems, mechanics, and memorable game flow.</h1>
+          <p class="hero-text">
+            I’m a gameplay-focused developer passionate about creating clean, functional game logic,
+            fast iteration, and polished player experiences. My work blends strong C++ fundamentals,
+            spatial reasoning, and practical engineering for modern game development.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">View Projects</a>
+            <a class="button button-secondary" href="#contact">Contact</a>
+          </div>
+
+          <ul class="hero-stats" aria-label="Key strengths">
+            <li><strong>4+</strong><span>Gameplay prototypes</span></li>
+            <li><strong>2+</strong><span>Game jam / personal projects</span></li>
+            <li><strong>5+</strong><span>Languages & tools</span></li>
+          </ul>
+        </div>
+
+        <div class="hero-panel">
+          <div class="panel-card">
+            <div class="mini-label">Current Focus</div>
+            <h3>Gameplay Systems & Mechanics</h3>
+            <ul>
+              <li>Player controller logic</li>
+              <li>Weapon and combat flow</li>
+              <li>AI and checkpoint systems</li>
+              <li>Level scripting and progression</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section container">
+        <div class="section-heading">
+          <p class="eyebrow">About Me</p>
+          <h2>Game developer with a strong foundation in code, systems, and iteration.</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="text-card">
+            <p>
+              I enjoy solving problems at the gameplay layer: making mechanics readable,
+              systems robust, and level flow satisfying to play. My work emphasizes clean logic
+              and practical implementation over flashy visuals alone.
+            </p>
+            <p>
+              I’m comfortable working with low-level concepts, memory-aware design, and mathematical
+              reasoning for gameplay, movement, collision, and spatial systems. I’ve built prototypes
+              and personal projects that demonstrate real logic and interactivity.
+            </p>
+          </div>
+          <div class="highlights-card">
+            <h3>Core strengths</h3>
+            <ul>
+              <li>Strong C++ fundamentals</li>
+              <li>Linear algebra and spatial reasoning</li>
+              <li>Low-level systems understanding</li>
+              <li>Unreal Engine, Unity, and custom engine workflows</li>
+              <li>Mechanical design and rules-driven gameplay</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section section-alt">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Skills</p>
+            <h2>Tools and technical knowledge for gameplay development.</h2>
+          </div>
+
+          <div class="skills-grid">
+            <div class="skill-card">
+              <h3>Programming</h3>
+              <ul>
+                <li>C++</li>
+                <li>C#</li>
+                <li>Lua</li>
+                <li>Python</li>
+                <li>Unreal Blueprints</li>
+              </ul>
+            </div>
+
+            <div class="skill-card">
+              <h3>Game Systems</h3>
+              <ul>
+                <li>Gameplay mechanics</li>
+                <li>Input and controls</li>
+                <li>AI behavior</li>
+                <li>Level scripting</li>
+                <li>Abilities and weapons</li>
+              </ul>
+            </div>
+
+            <div class="skill-card">
+              <h3>Math & Low-Level</h3>
+              <ul>
+                <li>Linear algebra</li>
+                <li>Vector math</li>
+                <li>Memory layout</li>
+                <li>Bitfields</li>
+                <li>Data-oriented thinking</li>
+              </ul>
+            </div>
+
+            <div class="skill-card">
+              <h3>Engines & Tools</h3>
+              <ul>
+                <li>Visual Studio</li>
+                <li>Unreal Engine</li>
+                <li>Unity</li>
+                <li>Radiant / custom tools</li>
+                <li>Git and version control</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section container">
+        <div class="section-heading">
+          <p class="eyebrow">Portfolio</p>
+          <h2>Gameplay-focused project samples and prototypes.</h2>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card featured">
+            <div class="project-tag">Gameplay Prototype</div>
+            <h3>Combat Flow Sandbox</h3>
+            <p>
+              A fast-paced prototype built around movement, melee timing, enemy reactions,
+              and responsive player feedback. Focused on readable combat rules and clean systems logic.
+            </p>
+            <ul>
+              <li>Combat state management</li>
+              <li>Enemy AI behavior</li>
+              <li>Damage and timing systems</li>
+            </ul>
+          </article>
+
+          <article class="project-card">
+            <div class="project-tag">Systems</div>
+            <h3>Ability System Prototype</h3>
+            <p>
+              Modular ability design for cooldowns, status effects, and scaling interactions.
+              Built to be easy to extend and tune during iteration.
+            </p>
+            <ul>
+              <li>Ability data-driven design</li>
+              <li>State transitions</li>
+              <li>Reusability and iteration</li>
+            </ul>
+          </article>
+
+          <article class="project-card">
+            <div class="project-tag">Level Flow</div>
+            <h3>Vertical Encounter Layout</h3>
+            <p>
+              A playable level flow prototype designed around pacing, progression, and encounter readability.
+              Emphasizes player understanding and challenge tuning in a compact environment.
+            </p>
+            <ul>
+              <li>Encounter pacing</li>
+              <li>Progression logic</li>
+              <li>Playtesting-driven design</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="experience" class="section section-alt">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Experience</p>
+            <h2>Demonstrated skills through prototypes, jams, and personal projects.</h2>
+          </div>
+
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-date">2023 — Present</div>
+              <div class="timeline-content">
+                <h3>Gameplay and Systems Prototyping</h3>
+                <p>
+                  Built personal gameplay experiments centered around mechanics, logic, and scripted behaviors.
+                  Focused on clean implementation, controllable systems, and playability over high-fidelity visuals.
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-date">2022 — 2023</div>
+              <div class="timeline-content">
+                <h3>Game Jam and Iteration Projects</h3>
+                <p>
+                  Participated in game jam-style projects using available engines and tools to rapidly prototype ideas,
+                  tune mechanics, and improve level flow based on testing feedback.
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-date">2021 — 2022</div>
+              <div class="timeline-content">
+                <h3>Technical Foundations</h3>
+                <p>
+                  Strengthened understanding of low-level principles, mathematics, and structured programming through
+                  personal study and project work in C++, C#, and scripting environments.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section container">
+        <div class="contact-card">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2>Let’s build interactive, polished gameplay experiences together.</h2>
+          </div>
+          <div class="contact-actions">
+            <a class="button button-primary" href="mailto:alex.carter.dev@example.com">Email Me</a>
+            <a class="button button-secondary" href="https://github.com/yourusername" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> Alex Carter</p>
+        <p>Gameplay Programmer • Systems & Mechanics</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
